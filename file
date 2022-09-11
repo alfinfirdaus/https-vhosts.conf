@@ -5,7 +5,7 @@
  </VirtualHost>
  <VirtualHost *:443>
      DocumentRoot "C:/xampp/htdocs"
-     ServerName alfin.com
+     ServerName domain.com
      ServerAlias www.domain.com
      SSLEngine on
      SSLCertificateFile "cert/domain.com/server.crt"
