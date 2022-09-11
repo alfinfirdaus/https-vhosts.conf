@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+     DocumentRoot "C:/xampp/htdocs"
+     ServerName alfin.com
+     ServerAlias *.alfin.com
+ </VirtualHost>
+ <VirtualHost *:443>
+     DocumentRoot "C:/xampp/htdocs"
+     ServerName alfin.com
+     ServerAlias *.alfin.com
+     SSLEngine on
+     SSLCertificateFile "cert/alfin.com/server.crt"
+     SSLCertificateKeyFile "cert/alfin.com/server.key"
+ </VirtualHost>
